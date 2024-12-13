@@ -1,0 +1,67 @@
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body{
+    background-image:url
+}
+.canvas {
+    border: 2px solid black;
+}
+
+.top,
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.block,
+input,
+select,
+button {
+    width: 80%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom>button {
+    margin: 10px;
+}
+
+.top>.block {
+    margin: 10px;
+}
+
+.block>p {
+    margin: 10px auto;
+    width: 50%;
+}
+#clearButton{
+    background-color:rgb(226, 15, 15);
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+#saveButton{
+   background-color: #28a745;
+   height: 50px;
+   border-radius: 10px;
+   color: white;
+   border: none;
+}
+#retrieveButton{
+ background-color: #ffc107;
+ height: 50px;
+ border-radius: 10px;
+ color: white;
+ border: none;
+   
+}
